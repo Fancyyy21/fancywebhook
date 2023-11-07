@@ -1,16 +1,15 @@
-package fancywebhook
+package webhook
 
 import (
 	"encoding/json"
 	"fmt"
-	"net/http"
-	"os"
-
 	"github.com/aiteung/atapi"
 	"github.com/aiteung/atmessage"
 	"github.com/aiteung/module/model"
 	"github.com/whatsauth/wa"
 	"github.com/whatsauth/ws"
+	"net/http"
+	"os"
 )
 
 func Post(w http.ResponseWriter, r *http.Request) {
