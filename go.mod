@@ -1,4 +1,4 @@
-module github.com/whatsauth/webhook
+module github.com/Fancyyy21/fancywebhook
 
 go 1.20
 
@@ -9,6 +9,7 @@ require (
 	github.com/aiteung/atmessage v0.1.0
 	github.com/aiteung/module v0.0.27
 	github.com/whatsauth/wa v0.0.1
+	github.com/whatsauth/webhook v0.0.10
 	github.com/whatsauth/ws v0.0.2
 )
 
