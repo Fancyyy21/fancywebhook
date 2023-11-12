@@ -1,6 +1,8 @@
 module github.com/raulmahya123/ssologin
 
-go 1.19
+go 1.21.3
+
+toolchain go1.21.4
 
 require (
 	github.com/GoogleCloudPlatform/functions-framework-go v1.8.0
