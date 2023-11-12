@@ -1,8 +1,6 @@
-module github.com/raulmahya123/ssologin
+module github.com/Fancyyy21/fancywebhook
 
-go 1.21.3
-
-toolchain go1.21.4
+go 1.19
 
 require (
 	github.com/GoogleCloudPlatform/functions-framework-go v1.8.0
