@@ -16,9 +16,9 @@ func TestGetENVToken(t *testing.T) {
 
 func TestUpdateGetData(t *testing.T) {
 	dt := &wa.TextMessage{
-		To:       "6281312000300",
+		To:       "6281220606885",
 		IsGroup:  false,
-		Messages: "Hai hai hai kak " + "rolly",
+		Messages: "Hai hai hai kak " + "FAN",
 	}
 	//url := "https://api.wa.my.id/api/send/message/text"
 	resp, error := atapi.PostStructWithToken[atmessage.Response]("Token", os.Getenv("TOKEN"), dt, "https://api.wa.my.id/api/send/message/text")
